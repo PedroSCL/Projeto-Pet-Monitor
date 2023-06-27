@@ -12,28 +12,31 @@
     <div class="retangulo-branco">
         <h1>Cadastro Do Usuário</h1>
         <div class="retangulo-branco">
-                
-            <form action="">
-                <label for="nome">Nome:</label>
-                <br>
-                <input type="text" class="form-control  nome-class" id="nome" placeholder="Digite aqui o seu nome">
-            </form>
-            <form action="">
-                <label for="email">E-mail:</label>
-                <br>
-                <input type="email" class="form-control  email-class" id="email" placeholder="digite aqui o seu e-mail">
-            </form>
-            <form action="">
-                <label for="cpf">CPF:</label>
-                <br>
-                <input type="number" class="form-control  cpf-class" id="cpf" placeholder="digite aqui o seu CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required>
-            </form>
+            <form action="">   
+                <div>
+                    <label for="nome">Nome:</label>
+                    <br>
+                    <input type="text" class="form-control  nome-class" id="nome" placeholder="Digite aqui o seu nome">
+                </div>
+               <div>
+                    <label for="email">E-mail:</label>
+                    <br>
+                    <input type="email" class="form-control  email-class" id="email" placeholder="digite aqui o seu e-mail">
+                </div>
+                <div>
+                    <label for="cpf">CPF:</label>
+                    <br>
+                    <input type="number" class="form-control  cpf-class" id="cpf" placeholder="digite aqui o seu CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required>
+                </div>
 
-            <form action="">
-                <label for="tel">Telefone:</label>
-                <br>
-                <input type="number" class="form-control  tel-class" id="tel" placeholder="digite aqui o seu telefone" pattern="\d{2}\s\d{2}\s\d{9}" required >
-            </form>
+                <div>
+                    <label for="tel">Telefone:</label>
+                    <br>
+                    <input type="number" class="form-control  tel-class" id="tel" placeholder="digite aqui o seu telefone" pattern="\d{2}\s\d{2}\s\d{9}" required >
+                </div>
+                <button>Cadastrar</button>
+            </form>     
+           
         </div>
     </div>
 </body>
