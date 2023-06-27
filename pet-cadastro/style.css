@@ -7,6 +7,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 97vh;
+    /*height: 100%;*/
     max-width: 500px;
     margin: 0 auto;
     background-color: white;
@@ -15,4 +16,11 @@ body {
 .form-control {
     width: 450px;
     height: 20px;
+}
+.form {
+    padding-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
 }
