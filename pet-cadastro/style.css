@@ -1,6 +1,18 @@
 body {
     background-color: #0289fe;
 }
+.retangulo-branco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 30px;
+}
 .form-control {
-    width: 800px;
+    width: 450px;
+    height: 20px;
 }
