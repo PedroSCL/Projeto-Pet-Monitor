@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Template</title>
+</head>
+<body>
+    <div class="container formulario-bootstrap ">
+        <div>
+            <!--Texto que irar aparece no formulario  -->
+         
+            <p class="h2 text-center">Fomulario de Cadastro</p>
+
+            <!--entranda de texto o id serve para identifica o elemento  -->
+            <input type="email" class="form-control  email-class" id="email" placeholder="cadastre seu email">
+
+            <!--entranda de texto o id serve para identifica o elemento  -->
+            <input type="password" class="form-control  email-class" id="senha" placeholder="cadastre sua senha">
+
+            <!-- butão para cadastro quando o usuario clicar no buttao cadastra
+            os dados do usuario serão enviados-->
+
+            <div class="d-grid gap-2">
+                <button onclick="logar()" class="btn btn btn-info butao-sucesses"type="button">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+    <script src="firebase.js"></script>
+</body>
+</html>
