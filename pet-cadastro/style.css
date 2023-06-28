@@ -24,7 +24,6 @@ legend {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 97vh;
     /*height: 100%;*/
     max-width: 500px;
@@ -42,13 +41,7 @@ legend {
     font-size: 16px;
 }
 
-.form {
-    padding-bottom: 20px;
-}
 
-label {
-    font-size: 18px;
-}
 
 .formulario {
     margin-bottom: 20px;
@@ -56,4 +49,21 @@ label {
 
 #loginForm {
     margin-top: 50px;
+}
+
+#submit {
+    background-image: linear-gradient(to right, #0289fe, #28567c);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    margin-top: 20%;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+#submit:hover {
+    background-image: linear-gradient(to right, #046fcd, #1d405c);
 }
