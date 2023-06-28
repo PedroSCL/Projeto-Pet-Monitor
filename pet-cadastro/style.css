@@ -1,6 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
 body {
     background-color: #0289fe;
+    background-image: linear-gradient(to right, #0289fe, #0e406a);
 }
+
+legend {
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    color: white;
+    margin-top: 15%;
+    font-size: 25px;
+}
+
 .retangulo-branco {
     display: flex;
     flex-direction: column;
@@ -14,13 +33,27 @@ body {
     border-radius: 30px;
 }
 .form-control {
-    width: 450px;
+    width: 300px;
     height: 20px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #0289fe;
+    outline: none;
+    font-size: 16px;
 }
+
 .form {
     padding-bottom: 20px;
 }
 
 label {
     font-size: 18px;
+}
+
+.formulario {
+    margin-bottom: 20px;
+} 
+
+#loginForm {
+    margin-top: 50px;
 }
