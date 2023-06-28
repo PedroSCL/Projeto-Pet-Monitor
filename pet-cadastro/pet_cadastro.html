@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="js/firebase.js"></script>
     <title>Document</title>
 </head>
 
@@ -15,7 +16,7 @@
 
         <h1>Cadastro Do Pet</h1>
         <div class="form">
-            <form action="">
+            <form action="" id="loginForm">
                 <div>
                     <label for="idade">idade</label>
                     <br>
@@ -54,18 +55,19 @@
                 <div>
                     <label for="comportamento">comportamento</label>
                     <br>
-                    <input type="" required class="form-control  comportamento -class" id="comportamento "
+                    <input type="text" required class="form-control  comportamento-class" id="comportamento"
                         placeholder="digite aqui a comportamento  do seu pet">
                 </div>
 
                 <div class="d-grid gap-2">
-                    <button onclick="location.href='../pag-cadas-usuario/index.html'">
-                        <a href="../pag-cadas-usuario/index.html">Cadastrar pet</a>
-                      </button>
+                    <button type="submit">
+                        Cadastrar pet
+                    </button>
                 </div>
             </form>
         </div>
     </div>
+    <script src="js/bd.js"></script>
 </body>
 
 </html>
