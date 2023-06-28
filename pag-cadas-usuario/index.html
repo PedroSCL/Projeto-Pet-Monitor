@@ -4,36 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro do</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="retangulo-branco">
-        <h1>Cadastro Do Usuário</h1>
+        <legend><strong>Cadastro do Usuário</strong></legend>
         <div class="retangulo-branco">
-            <form action="../pet-cadastro/pet_cadastro.html">   
-                <div>
+            <form action="../pet-cadastro/pet_cadastro.html" id="todos-formularios">   
+                <div class="formulario" id="primeiro-formulario">
                     <label for="nome">Nome:</label>
                     <br>
                     <input type="text" class="form-control  nome-class" id="nome" placeholder="Digite aqui o seu nome" required>
                 </div>
-               <div>
+               <div class="formulario">
                     <label for="email">E-mail:</label>
                     <br>
                     <input type="email" class="form-control  email-class" id="email" placeholder="digite aqui o seu e-mail" required>
                 </div>
-                <div>
+                <div class="formulario">
                     <label for="cpf">CPF:</label>
                     <br>
                     <input type="number" class="form-control  cpf-class" id="cpf" placeholder="digite aqui o seu CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required>
                 </div>
 
-                <div>
+                <div class="formulario">
                     <label for="tel">Telefone:</label>
                     <br>
                     <input type="number" class="form-control  tel-class" id="tel" placeholder="digite aqui o seu telefone" pattern="\d{2}\s\d{2}\s\d{9}" required >
                 </div>
+                
+                <div class="formulario">
+                    <label for="endereco">Endereço completo:</label>
+                    <br>
+                    <input type="text" class="form-control  tel-class" id="endereco" placeholder="digite aqui o seu endereço" required >
+                </div>
+
+                <div class="formulario">
+                    <label for="senha">Crie uma senha:</label>
+                    <br>
+                    <input type="password" class="form-control  tel-class" id="senha" placeholder="digite aqui uma senha" required >
+                </div>
+                
                 
                 <div class="botão">
                     <button type="submit">
