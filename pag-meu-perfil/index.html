@@ -19,7 +19,7 @@
 				<li><a href="#dados">dados</a></li>
 				<li><a href="#local">localização</a></li>
 				<li><a href="#notificacao">Notificações</a></li>
-				<li><a href="#c">Sair</a></li>
+				<li><a href="#pagianinicialqndficarpronta">Sair</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -46,8 +46,10 @@
 			<input type="text" name="" value="(61)91234-5678">
 		</div>
 	</section>
-	<input type="button" value="Adicionar novo pet" class="add">
+	<form action="../pet-cadastro/pet_cadastro.html" method="get" target="_blank">
+		<input type="submit" value="Adicionar novo pet" class="add" >
 
+	</form>
 	<section class="local" id="local">
 		<div class="box-local">
 			<h1>Localização</h1>
@@ -73,7 +75,7 @@
 		<div class="box-ntf">
 			<h1>Notificações</h1>
 			<h2>Deseja recebrer notificações de atuallização de localização do pet?</h2>
-				<input type="button" value="Ativar" onclick="testo()" class="activate">
+				<input type="button" value="Ativar" onclick="alert('Sucesso ✅')" class="activate">
 		</div>
 	</section>
 
