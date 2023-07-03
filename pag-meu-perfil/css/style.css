@@ -122,7 +122,7 @@ input[type="email"] {
 }
 
 .local .box-local .mapa img {
-	object-fit: cover;
+	object-fit: fill;
 	height: 40rem;
 	width: 90%;
 }
