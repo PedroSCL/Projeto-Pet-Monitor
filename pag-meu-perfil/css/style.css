@@ -77,6 +77,11 @@ section{
 	gap: 5rem;
 	align-items: center;
 	margin-left: 50rem;
+	overflow-y: scroll;
+}
+
+.box-pet {
+	margin-top: 9.7rem;
 }
 
 h1 {
