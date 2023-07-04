@@ -58,7 +58,7 @@ body {
     background-position: center;
     padding: 100px 0;
     text-align: center;
-    color: #dbdbdb;
+    color: #e0e0e0;
     background-color: rgba(3, 3, 3, 0.5);
   }
   
@@ -76,7 +76,7 @@ body {
   
   .botao {
     display: inline-block;
-    background-color: #fff;
+    background-color: #ffffff;
     color: #333;
     padding: 10px 20px;
     text-decoration: none;
@@ -85,8 +85,8 @@ body {
     }
   
   .botao:hover {
-    background-color: #0289fe;
-    color: #fff;
+    background-image: linear-gradient(to right, #046fcd, #1d405c);
+    color: #ffffff;
   }
 
   p{
