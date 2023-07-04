@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  header {
+    background-color: #0289fe;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav {
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #local {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #problema, #solucao {
+    margin-bottom: 30px;
+  }
+
+/* section localização */
+
+#local {
+    position: relative;
+    background-image: url("imagens/map-g5e88f10b1_1920.png");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: #000000;
+    background-color: rgba(3, 3, 3, 0.5);
+  }
+  
+  #local h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #local p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .botao {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    }
+  
+  .botao:hover {
+    background-color: #0289fe;
+    color: #fff;
+  }
+
+  p{
+    text-align: justify;
+  }
