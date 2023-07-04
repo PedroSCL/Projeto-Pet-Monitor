@@ -297,9 +297,7 @@ input[type="email"] {
 		overflow-y: scroll;
 	}
 
-	.d1, .d2, .rast {
-		max-width: 50%;
-	}
+	
 
 	.add {
 		/* margin-left: 5rem; */
