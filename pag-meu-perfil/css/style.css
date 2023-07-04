@@ -68,16 +68,32 @@ header .navbar ul li a:hover {
 }
 
 section{
-	max-height: 100vh;
-	padding: 5rem;
+	max-height: 100%;
+	padding-right: 5rem;
+	padding-left: 5rem;
 }
 
 .dados {
 	display: flex;
+	flex-direction: column;
+	/* grid-template-columns: 1fr 1fr; */
+	margin-left: 35rem;
+	margin-bottom: 5rem;
+}
+
+.dados-dois {
+	display: grid;
 	gap: 5rem;
 	align-items: center;
-	margin-left: 50rem;
+	grid-template-columns: 1fr 1fr;
+
 }
+
+/* .botao {
+	/* margin: 0 auto;
+	align-items: center;
+	align-self: center;
+} */
 
 .box-pet {
 	margin-top: 9.65rem;
@@ -85,7 +101,7 @@ section{
 
 h1 {
 	padding: 1.5rem;
-	max-width: 57rem;
+	/* max-width: 57rem; */
 	border-bottom: 3px solid #0289fe;
 	margin-bottom: 2rem;
 }
@@ -113,7 +129,7 @@ input[type="email"] {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	margin-left: 50rem;
+	margin-left: 35rem;
 	margin-bottom: 10rem;
 }
 
@@ -122,15 +138,22 @@ input[type="email"] {
 }
 
 .local .box-local .mapa img {
-	object-fit: fill;
-	height: 40rem;
-	width: 90%;
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
 }
 
 .dist {
 	display: flex;
 	gap: 3rem;
 	width: 60rem;
+	margin: 0 auto;
+}
+
+.rastreador {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
 }
 
 .d1, .d2 {
@@ -148,10 +171,9 @@ input[type="email"] {
 .rast {
 	margin-top: 3rem;
 	font-size: 1.5rem;
-	width: 60rem;
+	/* width: 60rem; */
 	color: #000;
 	text-align: center;
-
 }
 
 .fa-battery-three-quarters{
@@ -160,9 +182,11 @@ input[type="email"] {
 }
 
 .notificacao {
-	display: flex;
-	flex-wrap: wrap;
-	margin-left: 50rem;
+	margin-left: 35rem;
+}
+
+.teste {
+	width: 100%;
 }
 
 .activate, .battery {
@@ -179,7 +203,9 @@ input[type="email"] {
 	padding: 1.2rem;
 	margin-bottom: 10rem;
 	margin-top: 5rem;
-	margin-left: 57rem;
+	/* margin-left: 57rem; */
+	margin: 0 auto;
+	display: block;
 	width: 20rem;
 	font-size: 1.5rem;
 	color: #fff;
@@ -187,13 +213,12 @@ input[type="email"] {
 	border-style: none;
 }
 
-@media(max-width: 1200px) {
+
+@media(max-width: 1035px) {
 	html {
 		font-size: 55%;
 	}
-}
 
-@media(max-width: 991px) {
 	header {
 		left: -120%;
 	}
@@ -206,12 +231,12 @@ input[type="email"] {
 		left: 0%;
 	}
 
-	.dados, .local, .dist, .notificacao {
+	.dados, .local, .notificacao {
 		margin-left: 0rem;
 	}
 
 	.add {
-		margin-left: 5rem;
+		/* margin-left: 5rem; */
 	}
 }
 
@@ -223,6 +248,7 @@ input[type="email"] {
 	.dados, .local, .dist, .notificacao {
 		margin-left: 0rem;
 		display: block;
+		margin: 0 auto;
 	}
 
 	.dados {
@@ -231,13 +257,29 @@ input[type="email"] {
 
 
 	.add {
-		margin-left: 5rem;
+		/* margin-left: 5rem; */
 	}
 }
 
-@media(max-width: 609px) {
-	.d1, .d2, .rast {
-		max-width: 70%;
+@media(max-width: 650px) {
+	.dados {
+		display: flex;
+		flex-direction: column;
+		/* grid-template-columns: 1fr 1fr; */
+		/* margin-left: 35rem; */
+		margin-bottom: 5rem;
+	}
+
+	.dados-dois {
+		display: block;
+		gap: 5rem;
+		align-items: center;
+	}
+}
+
+@media(max-width: 585px) {
+	.dist {
+		width: 100%;
 	}
 }
 
@@ -260,7 +302,7 @@ input[type="email"] {
 	}
 
 	.add {
-		margin-left: 5rem;
+		/* margin-left: 5rem; */
 	}
 }
 

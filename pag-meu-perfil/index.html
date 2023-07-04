@@ -16,8 +16,8 @@
 		</div>
 		<nav class="navbar">
 			<ul>
-				<li><a href="#dados">dados</a></li>
-				<li><a href="#local">localização</a></li>
+				<li><a href="#dados">Dados</a></li>
+				<li><a href="#local">Localização</a></li>
 				<li><a href="#notificacao">Notificações</a></li>
 				<li><a href="#pagianinicialqndficarpronta">Sair</a></li>
 			</ul>
@@ -27,38 +27,41 @@
 	<div id="menu" class="fa fa-bars"></div>
 
 	<section class="dados" id="dados">
-		<div class="box-pet">
-			<h1>Dados do pet</h1>
-			<h2>Nome do pet</h2>
-			<input type="text" name="" value="James">
-			<h2>Idade</h2>
-			<input type="text" name="" value="8 anos">
-			<h2>Peso</h2>
-			<input type="text" name="" value="50kg">
-			<h2>Comprimento</h2>
-			<input type="text" name="" value="1.40m">
-			<h2>Cor Primária</h2>
-			<input type="text" name="" value="Castanho">
-			<h2>Comportamento</h2>
-			<input type="text" name="" value="Dócil">
+		<div class="dados-dois">
+			<div class="box-pet">
+				<h1>Dados do pet</h1>
+				<h2>Nome do pet</h2>
+				<input type="text" name="" value="James">
+				<h2>Idade</h2>
+				<input type="text" name="" value="8 anos">
+				<h2>Peso</h2>
+				<input type="text" name="" value="50kg">
+				<h2>Comprimento</h2>
+				<input type="text" name="" value="1.40m">
+				<h2>Cor Primária</h2>
+				<input type="text" name="" value="Castanho">
+				<h2>Comportamento</h2>
+				<input type="text" name="" value="Dócil">
+			</div>
+			<div class="box-dono">
+				<h1>Dados do dono</h1>
+				<h2>Nome</h2>
+				<input type="text" name="" value="Roberto">
+				<h2>Email</h2>
+				<input type="email" name="" value="robertin02@gmail.com">
+				<h2>CPF</h2>
+				<input type="text" name="" value="123.456.789-00">
+				<h2>Telefone</h2>
+				<input type="text" name="" value="(61)91234-5678">
+				<h2>Endereço</h2>
+				<input type="text" name="" value="Q. 1, Lote 2, Gama-DF">
+			</div>
 		</div>
-		<div class="box-dono">
-			<h1>Dados do dono</h1>
-			<h2>Nome</h2>
-			<input type="text" name="" value="Roberto">
-			<h2>Email</h2>
-			<input type="email" name="" value="robertin02@gmail.com">
-			<h2>CPF</h2>
-			<input type="text" name="" value="123.456.789-00">
-			<h2>Telefone</h2>
-			<input type="text" name="" value="(61)91234-5678">
-			<h2>Endereço</h2>
-			<input type="text" name="" value="Q. 1, Lote 2, Gama-DF">
-		</div>
+		<form action="../pet-cadastro/pet_cadastro.html" method="get" target="_blank" class="botao">
+			<input type="submit" value="Adicionar novo pet" class="add" >
+		</form>
 	</section>
-	<form action="../pet-cadastro/pet_cadastro.html" method="get" target="_blank">
-		<input type="submit" value="Adicionar novo pet" class="add" >
-	</form>
+	
 
 	<section class="local" id="local">
 		<div class="box-local">
@@ -67,15 +70,17 @@
 			<div class="mapa">
 				<img src="img/mapa.png" alt="">
 			</div>
-			<h2 class="rast">Rastreador</h2>
-			<div class="dist">
-				<div class="d1">
-					<h2>Distância até o pet: </h2>
-					<h2>35km</h2>
-				</div>
-				<div class="d2">
-				<h2>Nivel de bateria: </h2>
-				<i class="fa fa-battery-three-quarters" aria-hidden="true"></i>
+			<div class="rastreador">
+				<h2 class="rast">Rastreador</h2>
+				<div class="dist">
+					<div class="d1">
+						<h2>Distância até o pet: </h2>
+						<h2>35km</h2>
+					</div>
+					<div class="d2">
+					<h2>Nivel de bateria: </h2>
+					<i class="fa fa-battery-three-quarters" aria-hidden="true"></i>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -83,8 +88,8 @@
 
 	<section class="notificacao" id="notificacao">
 		<div class="box-ntf">
-			<h1>Notificações</h1>
-			<h2>Deseja recebrer notificações de atuallização de localização do pet?</h2>
+			<h1 class="teste">Notificações</h1>
+			<h2>Deseja receber notificações de atualização de localização do pet?</h2>
 				<input type="button" value="Ativar" onclick="alert('Sucesso ✅')" class="activate">
 		</div>
 	</section>
